@@ -50,6 +50,12 @@ This means that any node can access a singleton named "playervariables" with:
 
    var player_vars = get_node("/root/playervariables")
 
+Nodes can also use the singleton simply by its name:
+
+::
+
+   var player_hp = playervariables.hp
+
 Custom scene switcher
 ---------------------
 
